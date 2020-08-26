@@ -2,15 +2,19 @@
 
 <p align="center">
   <img src="/assets/images/headingFinal2.png"  width="300" style="margin-left:50%;transform:translateX(-50%);"/>
-  </p
+</p
 
+<p>
 
-  ## Project Overview
+  # Project Overview
   This projects aimed at ::
   * REVAMPING the current modules system from ``require.js`` to ``ESModules``
+  
   * Writing   Audio Nodes in `ES6 classes` way rather than older `function Constructor` way ! 
+  
   * REVAMPING Testing Architecture of the codebase 
   
+</p>
 
 ## The New Module system 
 Javascript has  a great history of module sytems , from ``IIFE`` to ``ESM 2015`` we have come a long  way to finally own a native module support ! (here is a great tutorial for the same )[https://www.youtube.com/watch?v=qJWALEoGge4&t=3s] .
