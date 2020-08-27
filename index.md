@@ -28,6 +28,18 @@ Perks of having native ESM -->
 
 [for more on ESM Modules](https://nodejs.org/api/esm.html#esm_ecmascript_modules)
 
-[This huge PR sucessfully revamped the codebase from ``require()`` to ``export/import``](https://github.com/processing/p5.js-sound/pull/489)
 
+
+This is not it !,
+Many browsers does not support many ES6 features such as `export/import` , ``classes``  , ``arrow functions `` .. etc , and here we needed the backward compatiblity , and BABEL (JS TRANSPILER ) is 
+here to save the day  , which with help of WEBPACK ( module bundler ) ships the final code in older verion of ES ! YES you heard it right , we write code in NODE.JS env with modern JS syntax but at the end of the day we ship the code in older ES versions to ensure compatiblity in all browsers ! 
+
+
+
+[More On BABEL ](https://babeljs.io/docs/en/babel-preset-env)
+
+[More On webpack ](https://webpack.js.org/concepts/ )
+
+
+[THIS PR SUCCESSFULLY REVAMPED THE CODEBASE TO THE NEW MODULE SYSTEM ](https://github.com/processing/p5.js-sound/pull/489)
 
