@@ -26,7 +26,7 @@ Perks of having native ESM -->
  * Named exports has always been great feature of ESM 
  * Modules can be loaded from a URL, which is not there in Commonjs  !
 
-[for more on ESM Modules](https://nodejs.org/api/esm.html#esm_ecmascript_modules)
+[More on ESM Modules](https://nodejs.org/api/esm.html#esm_ecmascript_modules)
 
 
 
@@ -38,7 +38,7 @@ here to save the day  , which with help of WEBPACK ( module bundler ) ships the 
 
 [More On BABEL ](https://babeljs.io/docs/en/babel-preset-env)
 
-[More On webpack ](https://webpack.js.org/concepts/ )
+[More On WEBPACK ](https://webpack.js.org/concepts/ )
 
 
 [THIS PR SUCCESSFULLY REVAMPED THE CODEBASE TO THE NEW MODULE SYSTEM ](https://github.com/processing/p5.js-sound/pull/489)
