@@ -106,7 +106,7 @@ while completing my gsoc tasks , i enjoyed helping jason and kyle in  adding  pr
 
  
 * [ [p5.js file](https://github.com/processing/p5.js-sound/pull/501) ]
-Most of out unit  tests and examples  required p5.js to work with , and it was chached too into the codebase which not only was bulking the codebase but also making it hard to update , I removed the cached p5.js file and used NPM to download , however after download by default it was present inside the node_modules folder , which was a serious issue beacause  our ``unit tests`` and  ``examples``  used different reference to the p5.js file , i decided to copy the p5.js file as soon as it get downloaded into node_modules folder using ``POSTINSTALL``  NPM SCRIPT .
+Most of out unit  tests and examples  required p5.js to work with , and it was chached too into the codebase which not only was bulking the codebase but also making it hard to update , I removed the cached p5.js file and used NPM to download it  , however after download by default it was present inside the node_modules folder , which was a serious issue beacause  our ``unit tests`` and  ``examples``  used different reference to the p5.js file , i decided to copy the p5.js file as soon as it get downloaded into node_modules folder using ``POSTINSTALL``  NPM SCRIPT .
 
 Also  i loved  dicussing the issues of others related to the library and reviewing  the code was self rewarding .
 
