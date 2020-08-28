@@ -1,13 +1,13 @@
 
 
 <p align="center">
-  <img src="/assets/images/headingFinal2.png"  width="300" style="margin-left:50%;transform:translateX(-50%);"/>
+  <img src="/assets/images/gsoc-heading.png"  width="300" style="margin-left:50%;transform:translateX(-50%);"/>
 </p
 
 <p>
 
-  # Project Overview
-  This projects aimed at ::
+# Project Overview
+  This project aimed at - 
   * REVAMPING the current modules system from ``require.js`` to ``ESModules``
   
   * Writing   Audio Nodes in `ES6 classes` way rather than older `function Constructor` way ! 
@@ -17,7 +17,7 @@
 </p>
 
 ## The New Module system 
-Javascript has  a great history of module sytems , from ``IIFE`` to ``ESM 2015`` we have come a long  way to finally own a native module support ! [here is a great tutorial for the same ](https://www.youtube.com/watch?v=qJWALEoGge4&t=3s) .
+Javascript has  a struggling  history of module sytems , from ``IIFE`` to ``ESM 2015`` we have come a long  way to finally own a native module support ! [here is a great tutorial for the same ](https://www.youtube.com/watch?v=qJWALEoGge4&t=3s) .
 Earlier p5.js-sound library was dependent on  `require.js` for making the codebase modular , which was very cumbersome to maintain and scale , However , now we have been shifted to ESM .
 
 Perks of having native ESM -->
@@ -85,3 +85,31 @@ Following PR REVAMPED the AUDIO NODES  to ES6 Classes
 [#538](https://github.com/processing/p5.js-sound/pull/538)
 [#539](https://github.com/processing/p5.js-sound/pull/539)
 
+
+
+## New Testing architecture 
+Unit automated  testings are fun and helps ship the errorless code to the end users .  Testing Frameworks like ``mocha`` , assertion library ``chai`` , stubbing helpers like ``sinon``  helped achieve the same , however we were still using ``require.js`` mdoule format and chached ``mocha.js`` , ``chai.js`` ,``sinon.js`` file that not only increased the size of the codebase but also very tidious to update them ,
+
+With [THIS PR](https://github.com/processing/p5.js-sound/pull/541) i sucessfully revamped the module System to ESM and removed those chached file and made them downloadable using NPM , Moreover i have added following  unit tests to some of uncovered AUDIO NODES and  modules .
+
+
+[Unit tests for p5.master](https://github.com/processing/p5.js-sound/pull/463)
+[Unit tests for helper methods](https://github.com/processing/p5.js-sound/pull/440)
+[Unit test for p5.Gain](https://github.com/processing/p5.js-sound/pull/462)
+
+PS - This one was more of my second gsoc proposal , however i  completed the  goals  of  1st proposal early and decided to make that happen too . 
+
+
+## Off GSOC Tasks
+*  [ [pre commit hooks](https://github.com/processing/p5.js-sound/pull/492)  ]
+while completing my gsoc tasks , i enjoyed helping jason and kyle in  adding  pre-commit hooks in the codebase .
+
+ 
+* [ [p5.js file](https://github.com/processing/p5.js-sound/pull/501) ]
+Most of out unit  tests and examples  required p5.js to work with , and it was chached too into the codebase which not only was bulking the codebase but also making it hard to update , I removed the cached p5.js file and used NPM to download , however after download by default it was present inside the node_modules folder , which was a serious issue beacause  our ``unit tests`` and  ``examples``  used different reference to the p5.js file , i decided to copy the p5.js file as soon as it get downloaded into node_modules folder using ``POSTINSTALL``  NPM SCRIPT .
+
+Also  i loved to dicuss the issues of others related to the library and reviewing  the code was self rewarding .
+
+
+# Acknowldegements
+I am extremly grateful to Processing Foundation and GSOC team to let me  live my dream here .I would like to thank my amazing mentors Jason Sigal and Kyle James for their unmeasured support and motivation throughout this amazing GSOC period .
