@@ -8,11 +8,11 @@
 
 # Project Overview
   This project aimed at - 
-  * REVAMPING the current modules system from ``require.js`` to ``ESModules``
+  * REVAMPING the current modules system from ``require.js`` to ``ESModules`` .
   
-  * Writing   Audio Nodes in `ES6 classes` way rather than older `function Constructor` way ! 
+  * Writing   Audio Nodes in `ES6 classes` way rather than older `function Constructor` way  .
   
-  * REVAMPING Testing Architecture of the codebase 
+  * REVAMPING Testing Architecture of the codebase  .
   
 </p>
 
