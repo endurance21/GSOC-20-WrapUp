@@ -49,13 +49,13 @@ here to save the day  , which with help of WEBPACK ( module bundler ) ships the 
 
 The introduction of es6 classes into the JS world , was a great relief for developers out there , though its a syntactic sugar for ``constructor functions`` yet it abstracts out the protypal approach under the hood ,leaving a cleaner interface to the developers .
 
-[More on ES6 CLASSES ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+[ [More on ES6 CLASSES ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) ]
 
 when it comes to AUDIO GRAPHS , where one node is connected to so many other nodes and inherit property from its parent nodes , a more robust and cleaner  implementation of Nodes was required and ES6 classes rocked the way  .
 
 Following PR REVAMPED the p5.sound's AUDIO NODES ( a wrapper over WEB AUDIO API's AUDIO NODES )   to use ES6 Classes 
 
-[#502](https://github.com/processing/p5.js-sound/pull/502)
+ [ [#502](https://github.com/processing/p5.js-sound/pull/502)
 [#503](https://github.com/processing/p5.js-sound/pull/503)
 [#508](https://github.com/processing/p5.js-sound/pull/508)
 [#509](https://github.com/processing/p5.js-sound/pull/509)
@@ -83,7 +83,7 @@ Following PR REVAMPED the p5.sound's AUDIO NODES ( a wrapper over WEB AUDIO API'
 [#536](https://github.com/processing/p5.js-sound/pull/536)
 [#537](https://github.com/processing/p5.js-sound/pull/537)
 [#538](https://github.com/processing/p5.js-sound/pull/538)
-[#539](https://github.com/processing/p5.js-sound/pull/539)
+[#539](https://github.com/processing/p5.js-sound/pull/539) ]
 
 
 
