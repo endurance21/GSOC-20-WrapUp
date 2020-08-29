@@ -17,7 +17,7 @@
 </p>
 
 ## The New Module system 
-Javascript has  a struggling  history of module sytems , from ``IIFE`` to ``ESM 2015`` we have come a long  way to finally own a native module support ! [here is a great tutorial for the same ](https://www.youtube.com/watch?v=qJWALEoGge4&t=3s) .
+Javascript has  a struggling  history of module sytems , from ``IIFE`` to ``ESM 2015`` we have come a long  way to finally own a native module support ! [ [here is a great tutorial for the same ](https://www.youtube.com/watch?v=qJWALEoGge4&t=3s) ].
 Earlier p5.js-sound library was dependent on  `require.js` for making the codebase modular , which was very cumbersome to maintain and scale , However , now we have been shifted to ESM .
 
 Perks of having native ESM -->
@@ -26,7 +26,7 @@ Perks of having native ESM -->
  * Named exports has always been great feature of ESM .
  * Modules can be loaded from a URL, which is not there in Commonjs .
 
-[More on ESM Modules](https://nodejs.org/api/esm.html#esm_ecmascript_modules)
+[ [More on ESM Modules](https://nodejs.org/api/esm.html#esm_ecmascript_modules) ]
 
 
 
@@ -36,9 +36,9 @@ here to save the day  , which with help of WEBPACK ( module bundler ) ships the 
 
 
 
-[More On BABEL ](https://babeljs.io/docs/en/babel-preset-env)
+[ [More On BABEL ](https://babeljs.io/docs/en/babel-preset-env) ]
 
-[More On WEBPACK ](https://webpack.js.org/concepts/ )
+[ [More On WEBPACK ](https://webpack.js.org/concepts/ ) ]
 
 
  [ [THIS PR SUCCESSFULLY REVAMPED THE CODEBASE TO THE NEW MODULE SYSTEM ](https://github.com/processing/p5.js-sound/pull/489) ]
