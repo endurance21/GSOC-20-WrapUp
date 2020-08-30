@@ -114,4 +114,4 @@ Also  i loved  dicussing the issues of others related to the library and reviewi
 
 
 # Acknowldegements
-I am extremly grateful to Processing Foundation and GSOC team to let me  live my dream here .I would like to thank my amazing mentors Jason Sigal and Kyle James along with @frappelatte28 for their unmeasured support and motivation throughout this amazing GSOC period .
+I am extremly grateful to Processing Foundation and GSOC team to let me  live my dream here .I would like to thank my amazing mentors Jason Sigal and Kyle James along with [@frappelatte28](https://github.com/frappelatte28) for their unmeasured support and motivation throughout this amazing GSOC period .
